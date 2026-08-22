@@ -24,6 +24,6 @@ public:
         return lcs(s,t);
     }
     int minInsertions(string s) {
-        return s.size() - longestPalindromeSubseq(s);
+        return s.length() - longestPalindromeSubseq(s);
     }
 };
